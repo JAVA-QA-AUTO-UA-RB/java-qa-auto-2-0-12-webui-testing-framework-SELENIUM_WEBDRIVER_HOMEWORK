@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="The Internet App Tests" verbose="1">
+    <test name="[TheInternetApp] Functional Smoke">
+        <classes>
+            <class name="SeleniumTestngTest"/>
+        </classes>
+    </test>
+</suite>
