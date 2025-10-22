@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability." />
+    <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +35,14 @@
     &quot;accountId&quot;: &quot;f3f6d534-ec8f-4176-8d48-80bc2371f7dd&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2kkUDT8wyjwWWMVKwdEEBE9wCAF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -51,12 +57,14 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.draganddropTest.executor": "Run",
     "TestNG.SeleniumTestngTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.horizontalSliderTest.executor": "Run",
     "TestNG.SeleniumTestngTest.myTest.executor": "Run",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/_projects/12-webui-testing-framework-rodikno",
+    "last_opened_file_path": "/Users/kseniyashabalina/disk/auto/12-webui-testing-framework-Kseniya1111",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.45181876"
@@ -86,6 +94,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeleniumTestngTest.draganddropTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="draganddropTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTestngTest.horizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="horizontalSliderTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeleniumTestngTest.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,6 +133,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SeleniumTestngTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.draganddropTest" />
         <item itemvalue="TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest" />
         <item itemvalue="TestNG.SeleniumTestngTest.myTest" />
       </list>
