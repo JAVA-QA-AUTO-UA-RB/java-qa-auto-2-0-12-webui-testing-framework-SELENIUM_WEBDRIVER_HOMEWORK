@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Add README for Page Object pattern refactoring and project restructuring&#10;&#10;Included detailed instructions for refactoring tests using Page Object pattern, project structure recommendations, and configuration examples for TestNG parallel execution.">
-      <change afterPath="$PROJECT_DIR$/README_CUCUMBER.md" afterDir="false" />
+    <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,23 +55,16 @@
     "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor": "Run",
     "TestNG.SeleniumTestngTest.executor": "Run",
     "TestNG.SeleniumTestngTest.myTest.executor": "Run",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/_projects/java-qa-auto-2-0-12-webui-testing-framework-SELENIUM_WEBDRIVER_HOMEWORK",
+    "last_opened_file_path": "/Users/irinaklimenko/Documents/GitHub/12-webui-testing-framework-Irene169",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.45181876",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\_projects\java-qa-auto-2-0-12-webui-testing-framework-SELENIUM_WEBDRIVER_HOMEWORK" />
-    </key>
-  </component>
   <component name="RunManager" selected="TestNG.SeleniumTestngTest">
     <configuration name="SeleniumTestngTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
@@ -198,15 +190,7 @@
       <option name="project" value="LOCAL" />
       <updated>1760216396458</updated>
     </task>
-    <task id="LOCAL-00010" summary="Add README for Page Object pattern refactoring and project restructuring&#10;&#10;Included detailed instructions for refactoring tests using Page Object pattern, project structure recommendations, and configuration examples for TestNG parallel execution.">
-      <option name="closed" value="true" />
-      <created>1760793247343</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1760793247343</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,7 +204,6 @@
     <MESSAGE value="Add unique user data directory for Chrome in tests&#10;&#10;This ensures each test run uses a separate Chrome user data directory, preventing conflicts. The directory name is suffixed with the current timestamp for uniqueness. This change improves test stability and avoids potential data sharing issues." />
     <MESSAGE value="Remove GitHub Classroom autograding configuration&#10;&#10;This commit deletes the autograding setup files, including the `autograding.json` and associated GitHub Actions workflow (`github-classroom.yml`). These changes likely indicate a shift away from automated grading or a migration to a different tooling setup." />
     <MESSAGE value="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability." />
-    <MESSAGE value="Add README for Page Object pattern refactoring and project restructuring&#10;&#10;Included detailed instructions for refactoring tests using Page Object pattern, project structure recommendations, and configuration examples for TestNG parallel execution." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README for Page Object pattern refactoring and project restructuring&#10;&#10;Included detailed instructions for refactoring tests using Page Object pattern, project structure recommendations, and configuration examples for TestNG parallel execution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability." />
   </component>
 </project>
