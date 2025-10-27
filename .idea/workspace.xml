@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/easycode.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Resolved the issue with the &quot;About password change&quot; pop-up window. Added an option with incognito mode, for the Chrome browser">
+      <change afterPath="$PROJECT_DIR$/README_TEST.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_CUCUMBER.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_CUCUMBER.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_PAGE_OBJECTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_PAGE_OBJECTS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +42,9 @@
       <run-configuration type="TestNG" name="SeleniumTestngTest.formAuthenticationTest" />
     </enabled-run-configurations>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -84,6 +76,11 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.45181876",
     "to.speed.mode.migration.done": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="TestNG.SeleniumTestngTest">
@@ -224,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760216396458</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Resolved the issue with the &quot;About password change&quot; pop-up window. Added an option with incognito mode, for the Chrome browser">
+      <option name="closed" value="true" />
+      <created>1761567900104</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761567900104</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +243,7 @@
     <MESSAGE value="Add unique user data directory for Chrome in tests&#10;&#10;This ensures each test run uses a separate Chrome user data directory, preventing conflicts. The directory name is suffixed with the current timestamp for uniqueness. This change improves test stability and avoids potential data sharing issues." />
     <MESSAGE value="Remove GitHub Classroom autograding configuration&#10;&#10;This commit deletes the autograding setup files, including the `autograding.json` and associated GitHub Actions workflow (`github-classroom.yml`). These changes likely indicate a shift away from automated grading or a migration to a different tooling setup." />
     <MESSAGE value="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability." />
+    <MESSAGE value="Resolved the issue with the &quot;About password change&quot; pop-up window. Added an option with incognito mode, for the Chrome browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolved the issue with the &quot;About password change&quot; pop-up window. Added an option with incognito mode, for the Chrome browser" />
   </component>
 </project>
