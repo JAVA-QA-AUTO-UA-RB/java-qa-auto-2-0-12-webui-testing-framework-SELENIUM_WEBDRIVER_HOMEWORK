@@ -1,9 +1,12 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
 public class BasicSetupTest {
+
 
     public ChromeDriver browser;
 
@@ -19,6 +22,8 @@ public class BasicSetupTest {
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
 
+
+        options.addArguments("--incognito");
 
         browser = new ChromeDriver(options);
         browser.manage().window().maximize();

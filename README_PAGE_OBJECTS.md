@@ -35,38 +35,38 @@
 
 5) Використати WebDriverManager (bonigarcia) для ініціалізації браузера.
 - Жодного ручного завантаження/вказування шляхів до драйверів.
-- Приклад: `WebDriverManager.chromedriver().setup();` перед створенням `new ChromeDriver(...)`.
+- Приклад: `WebDriverManager.chromedriver().setup();` перед створенням `new ChromeDriver(...)`. 
 
 ---
 
 ## 🗂️ Рекомендована структура проєкту
 
 - src
-    - main
-        - java
-            - (за потреби — спільні утиліти, якщо виокремлюєте)
-    - test
-        - java
-            - base
-                - BaseTest.java
-            - pages
-                - HomePage.java
-                - AbTestingPage.java
-                - AddRemoveElementsPage.java
-                - CheckboxesPage.java
-                - DropdownPage.java
-                - LoginPage.java
-                - SecureAreaPage.java
-                - DragAndDropPage.java
-                - HorizontalSliderPage.java
-            - tests
-                - AbTestingTest.java
-                - AddRemoveElementsTest.java
-                - CheckboxesTest.java
-                - DropdownTest.java
-                - AuthenticationTest.java
-                - DragAndDropTest.java
-                - HorizontalSliderTest.java
+  - main
+    - java
+      - (за потреби — спільні утиліти, якщо виокремлюєте)
+  - test
+    - java
+      - base
+        - BaseTest.java
+      - pages
+        - HomePage.java
+        - AbTestingPage.java
+        - AddRemoveElementsPage.java
+        - CheckboxesPage.java
+        - DropdownPage.java
+        - LoginPage.java
+        - SecureAreaPage.java
+        - DragAndDropPage.java
+        - HorizontalSliderPage.java
+      - tests
+        - AbTestingTest.java
+        - AddRemoveElementsTest.java
+        - CheckboxesTest.java
+        - DropdownTest.java
+        - AuthenticationTest.java
+        - DragAndDropTest.java
+        - HorizontalSliderTest.java
 - testng.xml (у корені репозиторію або в папці test/resources)
 
 Назви — орієнтовні. Можете адаптувати під свій стиль, головне — логічність та читабельність.
@@ -208,12 +208,12 @@ public class AbTestingTest extends BaseTest {
 ## ✅ Критерії приймання
 
 - Проєкт відрефакторено на Page Object-и:
-    - Всі локатори оголошені через `@FindBy` усередині класів сторінок.
-    - Логіка взаємодії з елементами інкапсульована в методах Page Object-ів.
+  - Всі локатори оголошені через `@FindBy` усередині класів сторінок.
+  - Логіка взаємодії з елементами інкапсульована в методах Page Object-ів.
 - Тести розбиті на окремі тест-класи відповідно до сторінок/функціоналу.
 - Додано/налаштовано `testng.xml`:
-    - Усі нові тест-класи підключені.
-    - Налаштовано паралельне виконання на рівні класів (`parallel="classes"`).
+  - Усі нові тест-класи підключені.
+  - Налаштовано паралельне виконання на рівні класів (`parallel="classes"`).
 - Є `BaseTest` із ініціалізацією та завершенням WebDriver, а також налаштованими `implicit` та/або `explicit` wait-ами.
 - Для ініціалізації браузера використано WebDriverManager (bonigarcia) — без ручного встановлення драйверів або прописування шляхів.
 - Всі тести проходять локально та через Maven.
