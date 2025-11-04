@@ -3,6 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 workspace.xml
+debug.log
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
