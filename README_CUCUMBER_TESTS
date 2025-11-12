@@ -1,0 +1,26 @@
+## Запуск Cucumber-тестів
+
+### Через IDE (IntelliJ)
+1. Відкрий `runners/CucumberTestRunner.java`.
+2. Правий клік → Run 'CucumberTestRunner'.
+
+### Через Maven
+Запуск дефолтно фільтрує тести за тегом `@ui` (можна змінити).
+- Запуск стандартний (chrome, headed):
+mvn clean test -Dcucumber.filter.tags=@ui
+- Запуск headless (Chrome):
+mvn clean test -Dcucumber.filter.tags=@ui -Dheadless=true
+- Запуск у Firefox:
+mvn clean test -Dcucumber.filter.tags=@ui -Dbrowser=firefox
+- Запуск Firefox у headless:
+mvn clean test -Dcucumber.filter.tags=@ui -Dbrowser=firefox -Dheadless=true
+
+### Через TestNG suite
+- Виконати:
+mvn -Dtestng.xml test
+або запустити `testng.xml` з IntelliJ (Run -> testng.xml).
+
+### Параметри
+- `-Dbrowser=chrome|firefox` — вибір браузера (за замовчуванням chrome).
+- `-Dheadless=true|false` — запуск у headless mode (false за замовчуванням).
+- `-Dcucumber.filter.tags=@ui` — теги для запуску.
